@@ -19,12 +19,12 @@ Main Focus on Denis' app as it seemed the more professional and effective betwee
 
 Pages allocation 
 Login (LH)
-Landing (LH)
-Sign up(LH)
+Landing (LH) No css frame work done
+Sign up(LH) No CSS frame work done
 Car registration (DM)
 Booking Page (DM)
 Prices page/display for nearby carparks (DM)
-Settings Menu (LH)
+Settings Menu (LH) no css framework done
   - View Account page
   - Accessibility
   - Favourite parking (May add to view account as a section)
