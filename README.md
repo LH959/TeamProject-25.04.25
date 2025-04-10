@@ -18,19 +18,19 @@ Matching between system and real world by using common words and phrases that sh
 Main Focus on Denis' app as it seemed the more professional and effective between the two
 
 Pages allocation 
-Login (LH)
-Landing (LH) No css frame work done
-Sign up(LH) No CSS frame work done
-Car registration (DM)
-Booking Page (DM)
-Prices page/display for nearby carparks (DM)
-Settings Menu (LH) no css framework done
+- Login (LH)
+- Landing (LH) No css frame work done
+- Sign up(LH) No CSS frame work done
+- Car registration (DM)
+- Booking Page (DM)
+- Prices page/display for nearby carparks (DM)
+- Settings Menu (LH) no css framework done
   - View Account page
   - Accessibility
   - Favourite parking (May add to view account as a section)
   - Saved payments(Add and remove banking)
   - Registered cars (May add to view account section)
-Car Park search page (LH)
-Booking confirmation page (DM)
-Make payment page (DM)
-Terms and conditions (DM)
+- Car Park search page (LH)
+- Booking confirmation page (DM)
+- Make payment page (DM)
+- Terms and conditions (DM)
