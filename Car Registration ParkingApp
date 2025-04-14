@@ -8,3 +8,29 @@
     <link rel="stylesheet" href=""> <!--Add CSS-->
 
   <body>
+
+    <h1> Your Registered Vehicles</h1>
+
+    <table>
+        <tr>
+            <th>Vehicle Name</th>
+            <th>Vehicle Type</th>
+            <th>License Plate</th>
+            <th>Owner Name</th>
+            <th>Preferred Car Park</th>
+        </tr>
+        <tr>
+            <td>John Smith's car</td>
+            <td>Toyota</td>
+            <td>J013 Sm34b</td>
+            <td>John Smith</td>
+            <td>Leeds Trinity shopping car park</td>
+    </table>
+
+    <div class="container mt-4">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <a href="" class = "btn btn-primary">Register a new vehicle</a>
+          </div>   
+        </div>
+      </div>
