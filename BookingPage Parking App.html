@@ -16,6 +16,23 @@
         .form-group {
             margin-bottom: 20px;
         }
+
+        .booking-container, .payment-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .card-table {
+            margin-top: 20px;
+        }
+        .card-number {
+            font-family: monospace;
+        }
     </style>
 </head>
 <body>
@@ -75,6 +92,48 @@
                     <button type="button" class="btn btn-primary btn-lg">Book Now</button>
                 </div>
             </form>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="payment-container">
+            <h3 class="text-center mb-4">Payment Method</h3>
+            <table class="table table-hover card-table">
+                <thead>
+                    <tr>
+                        <th>Card Type</th>
+                        <th>Card Number</th>
+                        <th>Expiry</th>
+                        <th>Select</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Visa</td>
+                        <td class="card-number">****-****-****-1234</td>
+                        <td>05/25</td>
+                        <td>
+                            <input type="radio" name="card-select" class="form-check-input" checked>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mastercard</td>
+                        <td class="card-number">****-****-****-5678</td>
+                        <td>08/24</td>
+                        <td>
+                            <input type="radio" name="card-select" class="form-check-input">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="d-grid gap-2 mt-3">
+                <button type="button" class="btn btn-outline-primary btn-sm">+ Add New Card</button>
+            </div>
+        </div>
+
+        <div class="d-grid gap-2 booking-container">
+            <button type="button" class="btn btn-success btn-lg">Confirm and Pay</button>
         </div>
     </div>
 
