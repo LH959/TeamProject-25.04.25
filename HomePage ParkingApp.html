@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leeds Parking App - Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .map-container {
+            width: 100%;
+            height: 400px;
+            background-color: #f8f9fa;
+            margin: 20px 0;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .map-placeholder {
+            color: #6c757d;
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Leeds City Centre Parking</h1>
+        
+        <!-- Map placeholder, going to add a picture of google maps to represent the car parks in central leeds -->
+        <div class="map-container">
+            <span class="map-placeholder">Map Loading...</span>
+        </div>
+
+        <!-- Car parks table -->
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Car Park Name</th>
+                        <th>Location</th>
+                        <th>Available Spaces</th>
+                        <th>Price per Hour</th>
+                        <th>Distance</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Leeds Trinity multi-story</td>
+                        <td>Leeds Trinity Shopping centre</td>
+                        <td>120</td>
+                        <td>£2.00 an hour</td>
+                        <td>1.4 miles away</td>
+                        <td>
+                            <a href="BookingPage Parking App.html" class="btn btn-primary btn-sm">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Victoria Leeds multi-story</td>
+                        <td>Victoria Gate Leeds Shopping centre</td>
+                        <td>80</td>
+                        <td>£2.50 an hour</td>
+                        <td>1.7 miles away</td>
+                        <td>
+                            <a href="BookingPage Parking App.html" class="btn btn-primary btn-sm">Book Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Woodhouse Lane Car Park</td>
+                        <td>Woodhouse Lane</td>
+                        <td>50</td>
+                        <td>£1.50 an hour</td>
+                        <td>0.8 miles away</td>
+                        <td>
+                            <a href="BookingPage Parking App.html" class="btn btn-primary btn-sm">Book Now</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
