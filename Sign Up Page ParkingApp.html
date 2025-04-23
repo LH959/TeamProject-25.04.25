@@ -8,40 +8,30 @@
     <link rel="stylesheet" href="css/global.css"> <!-- Add custom CSS if needed -->
   </head>
   <body>
-    <h1 class="text-center" style="margin-top: 80px;">CREATE ACCOUNT</h1>
+    <h1 class="text-center" style="margin-top: 80px;">Create Account</h1>
     <div class="d-flex justify-content-center align-items-center" style="margin-top: 150px;">
       <form>
         <div class="mb-4">
-          <input type="email" id="email" name="email" placeholder="Email" required>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
         </div>
         <div class="mb-4">
-          <input type="text" id="password" name="Password" placeholder="Password" required>
+          <input type="text" class="form-control" id="password" name="Password" placeholder="Password" required>
         </div>
         <div class="mb-4">
-          <input type="text" id="Confirm_password" name="Confirm_Password" placeholder="Confirm Password" required>
+          <input type="text" class="form-control" id="Confirm_password" name="Confirm_Password" placeholder="Confirm Password" required>
         </div>
         <div class="mb-4 form-check">
           <input type="checkbox" class="form-check-input" id="terms" required>
-          <label class="form-check-label" for="terms">Agree to terms and conditions</label>
+          <label class="form-check-label" for="terms">Agree to TOS</label>
         </div>
         <div class="mb-4 form-check">
           <input type="checkbox" class="form-check-input" id="saving" required>
-          <label class="form-check-label" for="saving">Save my details for next time</label>
+          <label class="form-check-label" for="saving">Save Details</label>
         </div>
         <div class="d-grid gap-2 mt-5">
           <a href="HomePage ParkingApp.html" class="btn btn-primary">Continue</a>
         </div>
       </form>
-    </div>
-    <!-- GIF container placed below the continue button -->
-    <div class="d-flex flex-column align-items-center mt-4">
-      <div class="position-relative" style="width: 100px; height: 100px;">
-        
-         <!-- Overlay GIF (initially hidden, revealed by JS) -->
-        <img id="squidloop" src="graphics/squidloop.gif" alt="Squid Loop" class="img-fluid position-absolute top-0 start-50 translate-middle-x" style="width: 100px; height: 100px; position: absolute;">
-        <!-- Background GIF -->
-        <img src="graphics/squidlStart.gif" alt="Squid GIF" class="img-fluid" style="width: 100px; height: 100px; position: absolute;">
-      </div>
     </div>
   </body>
 </html>
