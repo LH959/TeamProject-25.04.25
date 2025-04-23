@@ -1,0 +1,10 @@
+.history-container {
+    margin: 30px auto;
+    padding: 20px;
+}
+.table th {
+    background-color: #f8f9fa;
+}
+.receipt-button {
+    white-space: nowrap;
+}

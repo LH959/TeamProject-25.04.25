@@ -1,0 +1,14 @@
+.reminder-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.form-switch {
+    padding-left: 2.5em;
+}
+.timing-select {
+    max-width: 200px;
+    margin-top: 10px;
+}
