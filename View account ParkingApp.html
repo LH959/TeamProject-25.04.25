@@ -4,52 +4,58 @@
     <title> View Account </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href=""> <!--Add CSS-->
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/profilestyle.css">
+
+  </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
       <div class="container">
           <a href="HomePage ParkingApp.html" class="nav-icon">
               <img src="Graphics/Back Arrow ParkingApp.png" alt="Back" width="24" height="24">
           </a>
           <span class="navbar-brand mx-auto">View Profile</span>
       </div>
-  </nav>
-  <!--Profile picture needs added-->
-    <div class="account-container">
-      <div class="account-header">
-          <p>View and manage your personal information</p>
+    </nav>
+    <!--Profile picture needs added-->
+    <div class="account-container mt-5">
+      <div class="card">
+        <div class="card-body">
+          <div class="account-header mb-3">
+              <p>View and manage your personal information</p>
+          </div>
+
+          <!--<div class="account-info">
+              <div class="field-label">First Name:</div>
+              <div class="field-value">John</div>
+              
+              <div class="field-label">Surname:</div>
+              <div class="field-value">Smith</div>-->
+          
+          <div class="field-label">Email:</div>
+          <div class="field-value">Johnsmith@outlook.com</div>
+
+          <div class="field-label">Password:</div>
+          <div class="field-value">*********</div>
+
+          <!--<div class="field-label">Date of birth:</div>
+          <div class="field-value">01/01/2000</div>
+
+          <div class="field-label">Phone Number:</div>
+          <div class="field-value">+44 1234 567890</div>-->
+          
+          <div class="field-label">Favourite Car Park:</div>
+          <div class="field-value">Leeds Trinity shopping centre</div>
+
+          <div class="field-label">Favourite car:</div>
+          <div class="field-value">BMW 3 Series, Plate AXY2 23IU</div>
+
+          <button class="btn btn-primary">Edit Profile</button>
+          <button class="btn btn-secondary">Delete Profile</button>
+        </div>
       </div>
-
-    <!--<div class="account-info">
-        <div class="field-label">First Name:</div>
-        <div class="field-value">John</div>
-        
-        <div class="field-label">Surname:</div>
-        <div class="field-value">Smith</div>--> 
-
-        <div class="field-label">Email:</div>
-        <div class="field-value">Johnsmith@outlook.com</div>
-
-        <div class="field-label">Password:</div>
-        <div class="field-value">*********</div>
-
-       <!--<div class="field-label">Date of birth:</div>
-        <div class="field-value">01/01/2000</div>
-
-        <div class="field-label">Phone Number:</div>
-        <div class="field-value">+44 1234 567890</div>--> 
-
-        <div class="field-label">Favourite Car Park:</div>
-        <div class="field-label">Leeds Trinity shopping centre</div>
-
-        <div class="field-label">Favourite car:</div>
-        <div class="field-label">BMW 3 Series, Plate AXY2 23IU</div>
-
-        <button class="btn btn-primary">Edit Profile</button>
-        <button class="btn btn-secondary">Delete Profile</button>
-
     </div>
-
-      </body>
+  </body>
+</html>

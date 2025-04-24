@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .account-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto; /* vertical spacing and centered horizontally */
+  }
