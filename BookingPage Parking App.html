@@ -140,10 +140,38 @@
             <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#confirmationModal">Confirm and Pay</button>    
         </div>
     </div>
-
+    
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Booking Confirmed</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <h6 class="mb-4">Your parking spot has been booked successfully!</h6>
+                        <div class="booking-details mb-4">
+                            <p class="mb-2">Location: Leeds Trinity Shopping Centre</p>
+                            <p class="mb-2">Duration: 2 hours</p>
+                            <p class="mb-2">Time: 10:00 AM</p>
+                            <p class="mb-2">Total Paid: £4.00</p>
+                        </div>
+                        <div class="qr-code-container">
+                            <img src="Graphics/genericqrcode.png" alt="QR Code" class="img-fluid" style="max-width: 150px;">
+                            <p class="text-muted mt-2">Scan this QR code at the car park entrance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='HomePage ParkingApp.html'">Return to Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Confirmation Modal-->
     <!-- Confirmation Modal -->
-    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <!--<div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
@@ -160,7 +188,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
        
 
 
