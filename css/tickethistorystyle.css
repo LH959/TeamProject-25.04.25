@@ -8,3 +8,24 @@
 .receipt-button {
     white-space: nowrap;
 }
+
+.booking-card {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.booking-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+.booking-row:last-child {
+    border-bottom: none;
+}
+.booking-label {
+    font-weight: bold;
+    color: #666;
+}
+.booking-value {
+    text-align: right;
+}

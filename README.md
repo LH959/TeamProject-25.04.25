@@ -34,3 +34,7 @@ Pages allocation
 - Booking confirmation page (DM)
 - Make payment page (DM)
 - Terms and conditions (DM)
+
+
+-- Read Me
+

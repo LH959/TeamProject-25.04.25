@@ -29,9 +29,11 @@
 
           <div class="text-center mb-4">
             <div class="profile-picture-container">
-              <img src="" alt="Profile Picture" class="rounded-circle profile-picture" width="150" height="150">
+              <img src="Graphics/iconS.png" alt="Profile Picture" class="rounded-circle profile-picture" width="150" height="150" id="profile-pic">
             </div>
-            <button class="btn btn-outline-primary mt-2">Change Profile Picture</button>
+            <button class="btn btn-outline-primary mt-2" id="profile-button">Change Profile Picture</button>
+            <br>
+            <input type="file" id="file-input" accept="image/*" style="display: none;">
           </div>
 
           <!--<div class="account-info">
@@ -68,5 +70,6 @@
         </div>
       </div>
     </div>
+    <script src="js/profilePage.js"></script>
   </body>
 </html>
