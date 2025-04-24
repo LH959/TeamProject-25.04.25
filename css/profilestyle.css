@@ -8,3 +8,16 @@ body {
     max-width: 600px;
     margin: 20px auto; /* vertical spacing and centered horizontally */
   }
+
+  .profile-picture-container {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.profile-picture {
+    object-fit: cover;
+    border: 3px solid #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
